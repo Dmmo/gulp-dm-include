@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      "gulp-dm-include",
+      "/Users/siytech/WebstormProjects/untitled"
+    ]
+  ],
+  "_from": "gulp-dm-include@latest",
+  "_id": "gulp-dm-include@1.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gulp-dm-include",
+  "_nodeVersion": "5.9.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/gulp-dm-include-1.0.2.tgz_1459845574619_0.7146917064674199"
+  },
+  "_npmUser": {
+    "email": "775221474@qq.com",
+    "name": "dmoo"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "gulp-dm-include",
+    "raw": "gulp-dm-include",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_shasum": "9cda2a27b9f871262664e178279c65b9ec3d538e",
+  "_shrinkwrap": null,
+  "_spec": "gulp-dm-include",
+  "_where": "/Users/siytech/WebstormProjects/untitled",
+  "author": {
+    "name": "Dmoo"
+  },
+  "bugs": {
+    "url": "https://github.com/Dmmo/gulp-dm-include/issues"
+  },
+  "dependencies": {},
+  "description": "模板解析",
+  "devDependencies": {
+    "fs": "0.0.2",
+    "gulp-util": "^3.0.7",
+    "path": "^0.12.7",
+    "through2": "^2.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "9cda2a27b9f871262664e178279c65b9ec3d538e",
+    "tarball": "https://registry.npmjs.org/gulp-dm-include/-/gulp-dm-include-1.0.2.tgz"
+  },
+  "homepage": "https://github.com/Dmmo/gulp-dm-include#readme",
+  "keywords": [
+    "template",
+    "gulp",
+    "plugin",
+    "include"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "775221474@qq.com",
+      "name": "dmoo"
+    }
+  ],
+  "name": "gulp-dm-include",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmmo/gulp-dm-include.git"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "version": "1.0.2"
+}
