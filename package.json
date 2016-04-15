@@ -6,7 +6,6 @@
     ]
   ],
   "_from": "gulp-dm-include@latest",
-  "_id": "gulp-dm-include@1.0.2",
   "_inCache": true,
   "_installable": true,
   "_location": "/gulp-dm-include",
@@ -36,9 +35,7 @@
   "_shrinkwrap": null,
   "_spec": "gulp-dm-include",
   "_where": "/Users/siytech/WebstormProjects/untitled",
-  "author": {
-    "name": "Dmoo"
-  },
+  "author": "Dmoo",
   "bugs": {
     "url": "https://github.com/Dmmo/gulp-dm-include/issues"
   },
@@ -65,14 +62,10 @@
   "license": "MIT",
   "main": "index.js",
   "maintainers": [
-    {
-      "email": "775221474@qq.com",
-      "name": "dmoo"
-    }
+    "dmoo <775221474@qq.com>"
   ],
   "name": "gulp-dm-include",
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dmmo/gulp-dm-include.git"
@@ -80,5 +73,5 @@
   "scripts": {
     "test": "gulp"
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
