@@ -36,8 +36,9 @@ var analysisJavascript = function(value, file){
             if(type !== null && type[0] !== '.js'){
                 throw new PluginError(PLUGIN_NAME, '引入javascript['+tmpValue+']文件失败, 请确保您的js文件后缀为.js');
             }
-            tmpValue = _options.ENV+path.sep+tmpValue;
+
             tmp = path.relative(path.dirname(_options.ENV+path.sep+path.relative('src',file.path)), tmpValue);
+
             returns += (i < value.length - 1) ? '<script ' + defer + ' type="text/javascript" src="' + tmp + '"></script>\r\n' :'<script ' + defer + ' type="text/javascript" src="' + tmp + '"></script>';
         }
     }
@@ -67,9 +68,11 @@ var analysisStylesheel = function(value, file) {
         if(type !== null && type[0] !== '.css'){
             throw new PluginError(PLUGIN_NAME, '引入css['+tmpValue+']文件失败, 请确保您的css文件后缀为.css');
         }
-        tmpValue = _options.ENV+path.sep+tmpValue;
-        tmp = path.relative(path.dirname(_options.ENV+path.sep+path.relative('src',file.path)), tmpValue);
-        returns += ( i === 0)  ? '<link rel="stylesheet" href="' + tmp + '"/>\r\n' : '\t<link rel="stylesheet" href="' + tmp + '"/>\r\n';
+
+        tmp = tmpValue;
+        // tmpValue = _options.ENV+path.sep+tmpValue;
+        // tmp = path.relative(path.dirname(_options.ENV+path.sep+path.relative('src',file.path)), tmpValue);
+        returns += ( i === 0)  ? '\t<link rel="stylesheet" href="' + tmp + '"/>\r\n' : '\t<link rel="stylesheet" href="' + tmp + '"/>\r\n';
     }
 
     return returns;
