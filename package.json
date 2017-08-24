@@ -48,6 +48,7 @@
     "through2": "^2.0.1"
   },
   "directories": {},
+  "deprecated": "this has been deprecated, is not used.".
   "dist": {
     "shasum": "9cda2a27b9f871262664e178279c65b9ec3d538e",
     "tarball": "https://registry.npmjs.org/gulp-dm-include/-/gulp-dm-include-1.0.2.tgz"
